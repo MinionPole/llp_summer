@@ -1,0 +1,1 @@
+join employee_territories to territories on 2==1 filter employee_territories.1 == 2;

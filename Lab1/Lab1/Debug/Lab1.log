@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Lab1\main.c(188,25): warning C4013: printFullRawSequence: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Lab1\main.c(29): warning C4716: generate_rand_cell: должна возвращать значение
+  Lab1.vcxproj -> C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Debug\Lab1.exe

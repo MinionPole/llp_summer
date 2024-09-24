@@ -1,0 +1,6 @@
+insert {1:1, 2:'Eastern'} to region;
+insert {1:2, 2:'Western'} to region;
+insert {1:3, 2:'Northern'} to region;
+insert {1:4, 2:'Southern'} to region;
+
+create table region raw_size(2);

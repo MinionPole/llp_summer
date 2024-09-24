@@ -1,0 +1,32 @@
+﻿insert {1:1, 2:'Exotic Liquids', 3:'Charlotte Cooper', 4:'Purchasing Manager', 5:'49 Gilbert St.', 6:'London', 7:NULL, 8:'EC1 4SD', 9:'UK', 10:'(171) 555-2222'} to suppliers;
+insert {1:2, 2:'New Orleans Cajun Delights', 3:'Shelley Burke', 4:'Order Administrator', 5:'P.O. Box 78934', 6:'New Orleans', 7:'LA', 8:'70117', 9:'USA', 10:'(100) 555-4822'} to suppliers;
+insert {1:3, 2:'Grandma Kelly''s Homestead', 3:'Regina Murphy', 4:'Sales Representative', 5:'707 Oxford Rd.', 6:'Ann Arbor', 7:'MI', 8:'48104', 9:'USA', 10:'(313) 555-5735'} to suppliers;
+insert {1:4, 2:'Tokyo Traders', 3:'Yoshi Nagase', 4:'Marketing Manager', 5:'9-8 Sekimai Musashino-shi', 6:'Tokyo', 7:NULL, 8:'100', 9:'Japan', 10:'(03) 3555-5011'} to suppliers;
+insert {1:5, 2:'Cooperativa de Quesos ''Las Cabras''', 3:'Antonio del Valle Saavedra', 4:'Export Administrator', 5:'Calle del Rosal 4', 6:'Oviedo', 7:'Asturias', 8:'33007', 9:'Spain', 10:'(98) 598 76 54'} to suppliers;
+insert {1:6, 2:'Mayumi''s', 3:'Mayumi Ohno', 4:'Marketing Representative', 5:'92 Setsuko Chuo-ku', 6:'Osaka', 7:NULL, 8:'545', 9:'Japan',10: '(06)431-7877'} to suppliers;
+insert {1:7, 2: 'Pavlova, Ltd.',3: 'Ian Devling' ,4: 'Marketing Manager' ,5: '74 Rose St. Moonie Ponds' ,6: 'Melbourne' ,7: 'Victoria' ,8: '3058' ,9: 'Australia' ,10: '(03)444-2343'} to suppliers;
+insert {1:8, 2: 'Specialty Biscuits, Ltd.' ,3: 'Peter Wilson' ,4: 'Sales Representative' ,5: '29 King''s Way' ,6: 'Manchester' ,7: NULL ,8: 'M14 GSD' ,9: 'UK' ,10: '(161)555-4448'} to suppliers;
+insert {1:9, 2: 'PB Knäckebröd AB' ,3: 'Lars Peterson' ,4: 'Sales Agent' ,5: 'Kaloadagatan13' ,6: 'Göteborg' ,7: NULL ,8: 'S-34567' ,9: 'Sweden' ,10: '031-9876543'} to suppliers;
+insert {1:10,2: 'Refrescos Americanas LTDA' ,3: 'Carlos Diaz' ,4: 'Marketing Manager' ,5: 'Av.das Americanas12.890' ,6: 'Sao Paulo' ,7: NULL ,8: '5442' ,9: 'Brazil' ,10 : '(11)5554640'} to suppliers;
+
+insert {1:11, 2:'Heli Süßwaren GmbH & Co. KG', 3:'Petra Winkler', 4:'Sales Manager', 5:'Tiergartenstraße 5', 6:'Berlin', 7:NULL, 8:'10785', 9:'Germany', 10:'(010) 9984510'} to suppliers;
+insert {1:12, 2:'Plutzer Lebensmittelgroßmärkte AG', 3:'Martin Bein', 4:'International Marketing Mgr.', 5:'Bogenallee 51', 6:'Frankfurt', 7:NULL, 8:'60439', 9:'Germany', 10:'(069) 992755'} to suppliers;
+insert {1:13, 2:'Nord-Ost-Fisch Handelsgesellschaft mbH', 3:'Sven Petersen', 4:'Coordinator Foreign Markets', 5:'Frahmredder 112a', 6:'Cuxhaven', 7:NULL, 8:'27478', 9:'Germany', 10:'(04721) 8713'} to suppliers;
+insert {1:14, 2:'Formaggi Fortini s.r.l.', 3:'Elio Rossi', 4:'Sales Representative', 5:'Viale Dante, 75', 6:'Ravenna', 7:NULL, 8:'48100', 9:'Italy', 10:'(0544) 60323'} to suppliers;
+insert {1:15, 2:'Norske Meierier', 3:'Beate Vileid', 4:'Marketing Manager', 5:'Hatlevegen 5', 6:'Sandvika', 7:NULL, 8:'1320', 9:'Norway', 10:'(0)2-953010'} to suppliers;
+insert {1:16, 2:'Bigfoot Breweries', 3:'Cheryl Saylor', 4:'Regional Account Rep.', 5:'3400 - 8th Avenue Suite 210', 6:'Bend', 'OR', '97101','USA','(503)555-9931'} to suppliers;
+insert {1:17,2: 'Svensk Sjöföda AB' ,3: 'Michael Björn' ,4: 'Sales Representative' ,5: 'Brovallavägen231' ,6: 'Stockholm' ,7: NULL ,8: 'S-12345' ,9: 'Sweden' ,10: '08-1234567'} to suppliers;
+insert {1:18,2: 'Aux joyeux ecclésiastiques' ,3: 'Guylène Nodier' ,4: 'Sales Manager' ,5: '203,Rue des Francs-Bourgeois' ,6: 'Paris' ,7: NULL ,8: '75004' ,9: 'France' ,10: '(1)03.83.00.68'} to suppliers;
+insert {1:19,2: 'New England Seafood Cannery' ,3: 'Robb Merchant' ,4: 'Wholesale Account Agent' ,5: 'Order Processing Dept.2100 Paul Revere Blvd.' ,6: 'Boston' ,7: 'MA' ,8: '02134' ,9: 'USA' ,10 : '(617)555-3267'} to suppliers;
+
+insert {1:20, 2:'Leka Trading', 3:'Chandra Leka', 4:'Owner', 5:'471 Serangoon Loop, Suite #402', 6:'Singapore', 7:NULL, 8:'0512', 9:'Singapore', 10:'555-8787'} to suppliers;
+insert {1:21, 2:'Lyngbysild', 3:'Niels Petersen', 4:'Sales Manager', 5:'Lyngbysild Fiskebakken 10', 6:'Lyngby', 7:NULL, 8:'2800', 9:'Denmark', 10:'43844108'} to suppliers;
+insert {1:22, 2:'Zaanse Snoepfabriek', 3:'Dirk Luchte', 4:'Accounting Manager', 5:'Verkoop Rijnweg 22', 6:'Zaandam', 7:NULL, 8:'9999 ZZ', 9:'Netherlands', 10:'(12345) 1212'} to suppliers;
+insert {1:23, 2:'Karkki Oy', 3:'Anne Heikkonen', 4:'Product Manager', 5:'Valtakatu 12', 6:'Lappeenranta', 7:NULL, 8:'53120', 9:'Finland', 10:'(953) 10956'} to suppliers;
+insert {1:24, 2:'G''day, Mate', 3:'Wendy Mackenzie', 4:'Sales Representative', 5:'170 Prince Edward Parade Hunter''s Hill', 6:'Sydney', 'NSW','2042','Australia','(02)555-5914'} to suppliers;
+insert {1:25, 2:'Ma Maison', 3:'Jean-Guy Lauzon', 4:'Marketing Manager', 5:'2960 Rue St. Laurent', 6:'Montréal', 'Québec','H1J1C3','Canada','(514)5559022'} to suppliers;
+insert {1:26,2: 'Pasta Buttini s.r.l.',3: 'Giovanni Giudici' ,4: 'Order Administrator' ,5: 'Via dei Gelsomini,153' ,6: 'Salerno' ,7: NULL ,8: '84100' ,9: 'Italy' ,10: '(089)6547665'} to suppliers;
+insert {1:27,2: 'Escargots Nouveaux' ,3: 'Marie Delamare' ,4: 'Sales Manager' ,5: '22,rue H.Voiron' ,6: 'Montceau' ,7: NULL ,8: '71300' ,9: 'France' ,10 : '85.57.00.07'} to suppliers;
+insert {1:28,2: 'Gai pâturage' ,3: 'Eliane Noz' ,4: 'Sales Representative' ,5: 'Bat.B3,rue des Alpes' ,6: 'Annecy' ,7: NULL ,8: '74000' ,9 : 'France' ,10 : '38.76.98.06'} to suppliers;
+insert {1:29,2 :'Forêts d''érables' ,3 :'Chantal Goulet' ,4 :'Accounting Manager' ,5 :'148 rue Chasseur' ,6 :'Ste-Hyacinthe' ,'Québec','J2S7S8','Canada','(514)5552955'} to suppliers;
+

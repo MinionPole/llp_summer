@@ -1,0 +1,12 @@
+﻿  executer.c
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(59,41): warning C4133: =: несовместимые типы - из "ast *" в "list_ast *"
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(82,92): warning C4047: функция: "int" отличается по уровням косвенного обращения от "int *"
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(82,81): warning C4024: get_conditions: различные типы для формального и фактического параметров 4
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(117,80): warning C4047: функция: "int" отличается по уровням косвенного обращения от "int *"
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(117,73): warning C4024: get_conditions: различные типы для формального и фактического параметров 4
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(121,80): warning C4047: функция: "int" отличается по уровням косвенного обращения от "int *"
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(121,73): warning C4024: get_conditions: различные типы для формального и фактического параметров 4
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(43,1): warning C4133: инициализация: несовместимые типы - из "ast *" в "list_ast *"
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(184,103): warning C4028: формальный параметр 4 отличается от объявления
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Lab1\executer.c(195,47): warning C4133: функция: несовместимые типы - из "ast *" в "sign_ast *"
+  Lab1.vcxproj -> C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\Lab1\Debug\Lab1.exe

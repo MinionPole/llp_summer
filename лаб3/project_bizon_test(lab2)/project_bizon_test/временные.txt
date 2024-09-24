@@ -1,0 +1,37 @@
+drop table table_num(2)
+create table u2g2 raw_size(3);
+insert {1:2, 2:4} into table_num(4)
+for u2 in table_num(2)
+	for g22 in table_num(4)
+	filter u2.2 > 4 && u2.2 == 5
+	return {u2.2, u2.3}	
+
+for u2 in table_num(2)
+	remove u2
+
+for u2 in table_num(2)
+	update u2 with {1:2, 2:4 } 
+
+revome varname in table_num(2)
+
+for u2 in table_num(2)
+  filter u2.2 > 4 && u2.2 == 5
+    update u2 with {1:2, 2:4} 
+
+filter u2.2 > 4 && u2.2 == 5
+
+select from roman filter roman.2 > 4;
+
+create table u2g2 raw_size(3);
+
+
+
+insert {1:'roman', 2:2, 3:3} to roman;
+drop table roman;
+create table roman raw_size(3);
+
+select from roman filter roman.2 < 4;
+
+select from roman filter roman.2 > 4;
+delete from roman filter roman.2 > 4;
+join roman to lexa on 2==3 filter roman.2 > 4 && lexa.1 < 80 && lexa.1 < 80;

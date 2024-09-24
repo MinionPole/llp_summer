@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="grammarFile">
+      <UniqueIdentifier>{4ef553a3-e940-4f4a-a01d-356191273ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="add_data">
+      <UniqueIdentifier>{178cc9f5-a4a3-408b-b673-1ccc4d749744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="postgres">
+      <UniqueIdentifier>{d652883a-11f4-4aa3-98f2-52d5dead2778}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lexer.c">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.tab.c">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="ast.c">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="xml.c">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="network.c">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Lexer.l">
+      <Filter>grammarFile</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Parser.y">
+      <Filter>grammarFile</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Parser.tab.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ast.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="xml.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="get_data_from_neo4j.txt">
+      <Filter>add_data</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="example.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="временные.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="customs.txt">
+      <Filter>add_data</Filter>
+    </Text>
+    <Text Include="orders.txt">
+      <Filter>add_data</Filter>
+    </Text>
+    <Text Include="join.txt">
+      <Filter>add_data</Filter>
+    </Text>
+    <Text Include="select.txt">
+      <Filter>add_data</Filter>
+    </Text>
+    <Text Include="select2.txt">
+      <Filter>add_data</Filter>
+    </Text>
+    <Text Include="join2.txt" />
+    <Text Include="shippers.txt">
+      <Filter>postgres</Filter>
+    </Text>
+    <Text Include="region.txt">
+      <Filter>postgres</Filter>
+    </Text>
+    <Text Include="suppliers.txt">
+      <Filter>postgres</Filter>
+    </Text>
+    <Text Include="join1_p.txt">
+      <Filter>postgres</Filter>
+    </Text>
+    <Text Include="join2_p.txt">
+      <Filter>postgres</Filter>
+    </Text>
+    <Text Include="join3_p.txt">
+      <Filter>postgres</Filter>
+    </Text>
+    <Text Include="territories.txt">
+      <Filter>postgres</Filter>
+    </Text>
+    <Text Include="запросы в систему.txt">
+      <Filter>postgres</Filter>
+    </Text>
+    <Text Include="add_data_to_fiddle.txt">
+      <Filter>postgres</Filter>
+    </Text>
+    <Text Include="emp_ter.txt">
+      <Filter>postgres</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="customs.csv">
+      <Filter>add_data</Filter>
+    </None>
+    <None Include="orders.csv">
+      <Filter>add_data</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+join customs to orders on 1==1 filter orders.2 < 90000 && orders.3 == 'USA';

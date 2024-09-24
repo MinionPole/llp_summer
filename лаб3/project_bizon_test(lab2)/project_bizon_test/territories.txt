@@ -1,0 +1,58 @@
+insert {1:'01581', 2:'Westboro', 3:1} to territories;
+insert {1:'01730', 2:'Bedford', 3:1} to territories;
+insert {1:'01833', 2:'Georgetow', 3:1} to territories;
+insert {1:'02116', 2:'Boston', 3:1} to territories;
+insert {1:'02139', 2:'Cambridge', 3:1} to territories;
+insert {1:'02184', 2:'Braintree', 3:1} to territories;
+insert {1:'02903', 2:'Providence', 3:1} to territories;
+insert {1:'03049', 2:'Hollis', 3:3} to territories;
+insert {1:'03801', 2:'Portsmouth', 3:3} to territories;
+insert {1:'06897', 2:'Wilton', 3:1} to territories;
+insert {1:'07960', 2:'Morristown', 3:1} to territories;
+insert {1:'08837', 2:'Edison', 3:1} to territories;
+insert {1:'10019', 2:'New York', 3:1} to territories;
+insert {1:'10038', 2:'New York', 3:1} to territories;
+insert {1:'11747', 2:'Mellvile', 3:1} to territories;
+
+insert {1:'14450', 2:'Fairport', 3:1} to territories;
+insert {1:'19428', 2:'Philadelphia', 3:3} to territories;
+insert {1:'19713', 2:'Neward', 3:1} to territories;
+insert {1:'20852', 2:'Rockville', 3:1} to territories;
+insert {1:'27403', 2:'Greensboro', 3:1} to territories;
+insert {1:'27511', 2:'Cary', 3:1} to territories;
+insert {1:'29202', 2:'Columbia', 3:4} to territories;
+insert {1:'30346', 2:'Atlanta', 3:4} to territories;
+insert {1:'31406', 2:'Savannah', 3:4} to territories;
+insert {1:'32859', 2:'Orlando', 3:4} to territories;
+insert {1:'33607', 2:'Tampa', 3:4} to territories;
+insert {1:'40222', 2:'Louisville', 3:1} to territories;
+insert {1:'44122', 2:'Beachwood', 3:3} to territories;
+insert {1:'45839', 2:'Findlay', 3:3} to territories;
+
+insert {1:'48075', 2:'Southfield', 3:3} to territories;
+insert {1:'48084', 2:'Troy', 3:3} to territories;
+insert {1:'48304', 2:'Bloomfield Hills', 3:3} to territories;
+insert {1:'53404', 2:'Racine', 3:3} to territories;
+insert {1:'55113', 2:'Roseville', 3:3} to territories;
+insert {1:'55439', 2:'Minneapolis', 3:3} to territories;
+insert {1:'60179', 2:'Hoffman Estates', 3:2} to territories;
+insert {1:'60601', 2:'Chicago', 3:2} to territories;
+insert {1:'72716', 2:'Bentonville', 3:4} to territories;
+insert {1:'75234', 2:'Dallas', 3:4} to territories;
+insert {1:'78759', 2:'Austin', 3:4} to territories;
+insert {1:'80202', 2:'Denver', 3:2} to territories;
+insert {1:'80909', 2:'Colorado Springs', 3:2} to territories;
+insert {1:'85014', 2:'Phoenix', 3:2} to territories;
+
+insert {1:'85251', 2:'Scottsdale', 3:2} to territories;
+insert {1:'90405', 2:'Santa Monica', 3:2} to territories;
+insert {1:'94025', 2:'Menlo Park', 3:2} to territories;
+insert {1:'94105', 2:'San Francisco', 3:2} to territories;
+insert {1:'95008', 2:'Campbell', 3:2} to territories;
+insert {1:'95054', 2:'Santa Clara', 3:2} to territories;
+insert {1:'95060', 2:'Santa Cruz', 3:2} to territories;
+insert {1:'98004', 2:'Bellevue', 3:2} to territories;
+insert {1:'98052', 2:'Redmond', 3:2} to territories;
+insert {1:'98104', 2:'Seattle', 3:2} to territories;
+
+create table territories raw_size(3);

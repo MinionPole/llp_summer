@@ -1,0 +1,9 @@
+﻿  main.c
+C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Lab1\main.c(33,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "unsigned __int64"
+C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Lab1\main.c(33,12): message : рекомендуется использовать "%lld" в строке форматирования
+C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Lab1\main.c(33,12): message : рекомендуется использовать "%Id" в строке форматирования
+C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Lab1\main.c(33,12): message : рекомендуется использовать "%I64d" в строке форматирования
+C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Lab1\main.c(141,28): warning C4013: freeFullRawSequence: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Lab1\main.c(210,25): warning C4013: printFullRawSequence: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\Lab1\main.c(29): warning C4716: generate_rand_cell: должна возвращать значение
+  Lab1.vcxproj -> C:\Users\romay\Desktop\Labs\!LLP_лето\Lab1\x64\Debug\Lab1.exe

@@ -1,0 +1,5 @@
+^C:\USERS\ROMAY\DESKTOP\LABS\!LLP_ЛЕТО\PROJECT_BIZON_TEST(LAB2)\PROJECT_BIZON_TEST\LEXER.L
+"C:\Users\romay\Desktop\Labs\!LLP_лето\project_bizon_test(lab2)\toolsf\bin\flex" -oLexer.c Lexer.l
+^C:\USERS\ROMAY\DESKTOP\LABS\!LLP_ЛЕТО\PROJECT_BIZON_TEST(LAB2)\PROJECT_BIZON_TEST\PARSER.Y
+set PATH=C:\Users\romay\Desktop\Labs\!LLP_лето\project_bizon_test(lab2)\toolsf\bin;%PATH%
+bison -d Parser.y

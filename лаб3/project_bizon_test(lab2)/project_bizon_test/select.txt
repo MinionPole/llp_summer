@@ -1,0 +1,1 @@
+select from orders filter orders.2 > 15000 && orders.2 < 50000;

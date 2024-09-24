@@ -1,0 +1,4 @@
+for u2 in table_num(2)
+	for g22 in table_num(4)
+	filter u2.2 > 4 && u2.2 == 5
+	return {u2.2, u2.3}	;

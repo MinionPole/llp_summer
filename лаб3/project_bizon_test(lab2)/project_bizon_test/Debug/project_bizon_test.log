@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(9531,5): warning C5105: Поведение расширения макроса, создающего "defined", не определено
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\project_bizon_test(lab2)\project_bizon_test\main.c(41,42): warning C4047: функция: "const char *" отличается по уровням косвенного обращения от "char (*)[4096]"
+C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\project_bizon_test(lab2)\project_bizon_test\main.c(41,34): warning C4024: fopen_s: различные типы для формального и фактического параметров 2
+  project_bizon_test.vcxproj -> C:\Users\romay\Desktop\Labs\!LLP_лето\лаб3\project_bizon_test(lab2)\Debug\project_bizon_test.exe

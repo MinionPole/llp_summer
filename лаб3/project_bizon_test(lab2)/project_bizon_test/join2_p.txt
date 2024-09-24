@@ -1,0 +1,1 @@
+join territories to region on 3==1 filter territories.3 > 2 && region.2 == 'Northern';

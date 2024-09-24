@@ -1,0 +1,18 @@
+1) get customs
+MATCH (c:Customer)
+RETURN DISTINCT c.customerID as id, c.contactName as name
+
+2) get orders
+MATCH (o:Order) WHERE toInteger(o.shipPostalCode) is not null 
+RETURN DISTINCT o.customerID as id, toInteger(o.shipPostalCode) as zip, o.shipCountry as country
+
+3)
+select query
+MATCH (o:Order) WHERE toInteger(o.shipPostalCode) is not null and toInteger(o.shipPostalCode) > 15000 and toInteger(o.shipPostalCode) < 50000 
+RETURN DISTINCT o.customerID as id, toInteger(o.shipPostalCode) as zip, o.shipCountry as country
+
+4)
+join query
+MATCH (c: Customer)-[PURCHASED]->(o:Order) WHERE toInteger(o.shipPostalCode)
+is not null and toInteger(o.shipPostalCode) < 90000 and o.shipCountry = "USA"
+RETURN distinct c.contactName as name, toInteger(o.shipPostalCode) as zip, o.shipCountry as country

@@ -1,0 +1,387 @@
+Terminals unused in grammar
+
+   VARNAME
+
+
+Грамматика
+
+    0 $accept: query $end
+
+    1 query: terminal
+
+    2 terminal: drop_table
+    3         | create_table
+    4         | insert_to_table
+
+    5 constant: INTVAL
+    6         | DOUBLEVAL
+    7         | BOOLVAL
+    8         | STRINGVAL
+
+    9 drop_table: DROP TABLE TABLENUM OPENBR INTVAL CLOSEBR
+
+   10 create_table: CREATE TABLE TABLENUM OPENBR INTVAL CLOSEBR RAWSIZE OPENBR INTVAL CLOSEBR
+
+   11 insert_to_table: INSERT doc INTO TABLENUM OPENBR INTVAL CLOSEBR
+
+   12 doc: pairs
+
+   13 pairs: pair
+   14      | pairs COMA pair
+
+   15 pair: INTVAL DOUBLE_POINT constant
+
+
+Терминальные символы с правилами, в которых они появляются
+
+$end (0) 0
+error (256)
+VARNAME (258)
+STRINGVAL (259) 8
+INTVAL (260) 5 9 10 11 15
+BOOLVAL (261) 7
+DOUBLEVAL (262) 6
+COMA (263) 14
+DOUBLE_POINT (264) 15
+DROP (265) 9
+CREATE (266) 10
+OPENBR (267) 9 10 11
+CLOSEBR (268) 9 10 11
+TABLENUM (269) 9 10 11
+RAWSIZE (270) 10
+INTO (271) 11
+INSERT (272) 11
+TABLE (273) 9 10
+
+
+Нетерминальные символы с правилами, в которых они появляются
+
+$accept (19)
+    налево: 0
+query (20)
+    налево: 1, направо: 0
+terminal (21)
+    налево: 2 3 4, направо: 1
+constant (22)
+    налево: 5 6 7 8, направо: 15
+drop_table (23)
+    налево: 9, направо: 2
+create_table (24)
+    налево: 10, направо: 3
+insert_to_table (25)
+    налево: 11, направо: 4
+doc (26)
+    налево: 12, направо: 11
+pairs (27)
+    налево: 13 14, направо: 12 14
+pair (28)
+    налево: 15, направо: 13 14
+
+
+состояние 0
+
+    0 $accept: . query $end
+
+    DROP    сдвиг, и переход в состояние 1
+    CREATE  сдвиг, и переход в состояние 2
+    INSERT  сдвиг, и переход в состояние 3
+
+    query            переход в состояние 4
+    terminal         переход в состояние 5
+    drop_table       переход в состояние 6
+    create_table     переход в состояние 7
+    insert_to_table  переход в состояние 8
+
+
+состояние 1
+
+    9 drop_table: DROP . TABLE TABLENUM OPENBR INTVAL CLOSEBR
+
+    TABLE  сдвиг, и переход в состояние 9
+
+
+состояние 2
+
+   10 create_table: CREATE . TABLE TABLENUM OPENBR INTVAL CLOSEBR RAWSIZE OPENBR INTVAL CLOSEBR
+
+    TABLE  сдвиг, и переход в состояние 10
+
+
+состояние 3
+
+   11 insert_to_table: INSERT . doc INTO TABLENUM OPENBR INTVAL CLOSEBR
+
+    INTVAL  сдвиг, и переход в состояние 11
+
+    doc    переход в состояние 12
+    pairs  переход в состояние 13
+    pair   переход в состояние 14
+
+
+состояние 4
+
+    0 $accept: query . $end
+
+    $end  сдвиг, и переход в состояние 15
+
+
+состояние 5
+
+    1 query: terminal .
+
+    $default  вывод с использованием правила 1 (query)
+
+
+состояние 6
+
+    2 terminal: drop_table .
+
+    $default  вывод с использованием правила 2 (terminal)
+
+
+состояние 7
+
+    3 terminal: create_table .
+
+    $default  вывод с использованием правила 3 (terminal)
+
+
+состояние 8
+
+    4 terminal: insert_to_table .
+
+    $default  вывод с использованием правила 4 (terminal)
+
+
+состояние 9
+
+    9 drop_table: DROP TABLE . TABLENUM OPENBR INTVAL CLOSEBR
+
+    TABLENUM  сдвиг, и переход в состояние 16
+
+
+состояние 10
+
+   10 create_table: CREATE TABLE . TABLENUM OPENBR INTVAL CLOSEBR RAWSIZE OPENBR INTVAL CLOSEBR
+
+    TABLENUM  сдвиг, и переход в состояние 17
+
+
+состояние 11
+
+   15 pair: INTVAL . DOUBLE_POINT constant
+
+    DOUBLE_POINT  сдвиг, и переход в состояние 18
+
+
+состояние 12
+
+   11 insert_to_table: INSERT doc . INTO TABLENUM OPENBR INTVAL CLOSEBR
+
+    INTO  сдвиг, и переход в состояние 19
+
+
+состояние 13
+
+   12 doc: pairs .
+   14 pairs: pairs . COMA pair
+
+    COMA  сдвиг, и переход в состояние 20
+
+    $default  вывод с использованием правила 12 (doc)
+
+
+состояние 14
+
+   13 pairs: pair .
+
+    $default  вывод с использованием правила 13 (pairs)
+
+
+состояние 15
+
+    0 $accept: query $end .
+
+    $default  accept
+
+
+состояние 16
+
+    9 drop_table: DROP TABLE TABLENUM . OPENBR INTVAL CLOSEBR
+
+    OPENBR  сдвиг, и переход в состояние 21
+
+
+состояние 17
+
+   10 create_table: CREATE TABLE TABLENUM . OPENBR INTVAL CLOSEBR RAWSIZE OPENBR INTVAL CLOSEBR
+
+    OPENBR  сдвиг, и переход в состояние 22
+
+
+состояние 18
+
+   15 pair: INTVAL DOUBLE_POINT . constant
+
+    STRINGVAL  сдвиг, и переход в состояние 23
+    INTVAL     сдвиг, и переход в состояние 24
+    BOOLVAL    сдвиг, и переход в состояние 25
+    DOUBLEVAL  сдвиг, и переход в состояние 26
+
+    constant  переход в состояние 27
+
+
+состояние 19
+
+   11 insert_to_table: INSERT doc INTO . TABLENUM OPENBR INTVAL CLOSEBR
+
+    TABLENUM  сдвиг, и переход в состояние 28
+
+
+состояние 20
+
+   14 pairs: pairs COMA . pair
+
+    INTVAL  сдвиг, и переход в состояние 11
+
+    pair  переход в состояние 29
+
+
+состояние 21
+
+    9 drop_table: DROP TABLE TABLENUM OPENBR . INTVAL CLOSEBR
+
+    INTVAL  сдвиг, и переход в состояние 30
+
+
+состояние 22
+
+   10 create_table: CREATE TABLE TABLENUM OPENBR . INTVAL CLOSEBR RAWSIZE OPENBR INTVAL CLOSEBR
+
+    INTVAL  сдвиг, и переход в состояние 31
+
+
+состояние 23
+
+    8 constant: STRINGVAL .
+
+    $default  вывод с использованием правила 8 (constant)
+
+
+состояние 24
+
+    5 constant: INTVAL .
+
+    $default  вывод с использованием правила 5 (constant)
+
+
+состояние 25
+
+    7 constant: BOOLVAL .
+
+    $default  вывод с использованием правила 7 (constant)
+
+
+состояние 26
+
+    6 constant: DOUBLEVAL .
+
+    $default  вывод с использованием правила 6 (constant)
+
+
+состояние 27
+
+   15 pair: INTVAL DOUBLE_POINT constant .
+
+    $default  вывод с использованием правила 15 (pair)
+
+
+состояние 28
+
+   11 insert_to_table: INSERT doc INTO TABLENUM . OPENBR INTVAL CLOSEBR
+
+    OPENBR  сдвиг, и переход в состояние 32
+
+
+состояние 29
+
+   14 pairs: pairs COMA pair .
+
+    $default  вывод с использованием правила 14 (pairs)
+
+
+состояние 30
+
+    9 drop_table: DROP TABLE TABLENUM OPENBR INTVAL . CLOSEBR
+
+    CLOSEBR  сдвиг, и переход в состояние 33
+
+
+состояние 31
+
+   10 create_table: CREATE TABLE TABLENUM OPENBR INTVAL . CLOSEBR RAWSIZE OPENBR INTVAL CLOSEBR
+
+    CLOSEBR  сдвиг, и переход в состояние 34
+
+
+состояние 32
+
+   11 insert_to_table: INSERT doc INTO TABLENUM OPENBR . INTVAL CLOSEBR
+
+    INTVAL  сдвиг, и переход в состояние 35
+
+
+состояние 33
+
+    9 drop_table: DROP TABLE TABLENUM OPENBR INTVAL CLOSEBR .
+
+    $default  вывод с использованием правила 9 (drop_table)
+
+
+состояние 34
+
+   10 create_table: CREATE TABLE TABLENUM OPENBR INTVAL CLOSEBR . RAWSIZE OPENBR INTVAL CLOSEBR
+
+    RAWSIZE  сдвиг, и переход в состояние 36
+
+
+состояние 35
+
+   11 insert_to_table: INSERT doc INTO TABLENUM OPENBR INTVAL . CLOSEBR
+
+    CLOSEBR  сдвиг, и переход в состояние 37
+
+
+состояние 36
+
+   10 create_table: CREATE TABLE TABLENUM OPENBR INTVAL CLOSEBR RAWSIZE . OPENBR INTVAL CLOSEBR
+
+    OPENBR  сдвиг, и переход в состояние 38
+
+
+состояние 37
+
+   11 insert_to_table: INSERT doc INTO TABLENUM OPENBR INTVAL CLOSEBR .
+
+    $default  вывод с использованием правила 11 (insert_to_table)
+
+
+состояние 38
+
+   10 create_table: CREATE TABLE TABLENUM OPENBR INTVAL CLOSEBR RAWSIZE OPENBR . INTVAL CLOSEBR
+
+    INTVAL  сдвиг, и переход в состояние 39
+
+
+состояние 39
+
+   10 create_table: CREATE TABLE TABLENUM OPENBR INTVAL CLOSEBR RAWSIZE OPENBR INTVAL . CLOSEBR
+
+    CLOSEBR  сдвиг, и переход в состояние 40
+
+
+состояние 40
+
+   10 create_table: CREATE TABLE TABLENUM OPENBR INTVAL CLOSEBR RAWSIZE OPENBR INTVAL CLOSEBR .
+
+    $default  вывод с использованием правила 10 (create_table)

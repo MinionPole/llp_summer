@@ -1,0 +1,1 @@
+create table roman raw_size(3);

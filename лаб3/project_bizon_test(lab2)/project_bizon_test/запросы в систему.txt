@@ -1,0 +1,15 @@
+1) 1 условие
+select * from territories
+join region on territories.region_id = region.region_id
+where territories.region_id > 2;
+
+2) 2 условия
+select * from territories
+join region on territories.region_id = region.region_id
+where territories.region_id > 2 and region.region_description = 'Northern';
+
+
+3) join по строке
+select * from employee_territories
+join territories on employee_territories.territory_id=territories.territory_id
+where employee_territories.employee_id = 2;

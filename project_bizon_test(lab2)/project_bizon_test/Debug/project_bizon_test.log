@@ -1,0 +1,19 @@
+﻿  Running bison
+  Parser.y: яЁхфєяЁхцфхэшх: 1 nonterminal useless in grammar
+  Parser.y: яЁхфєяЁхцфхэшх: 1 rule useless in grammar
+  Parser.y:62.28-30: яЁхфєяЁхцфхэшх: nonterminal useless in grammar: doc
+  Parser.y:105.6-21: яЁхфєяЁхцфхэшх: rule useless in grammar: doc: pairs
+  Parser.y: ъюэЇышъЄ√: 3 ёфтшур/т√тюфр
+  Lexer.c
+  Parser.tab.c
+Parser.tab.c(334,24): warning C4273: malloc: несовместимое связывание dll
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h(101,15): message : см. предыдущее определение "malloc"
+Parser.tab.c(341,19): warning C4273: free: несовместимое связывание dll
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h(89,14): message : см. предыдущее определение "free"
+Parser.tab.c(1448,16): warning C4013: yylex: нет определения; предполагается "extern" с возвратом типа "int"
+Parser.y(139,62): warning C4047: функция: "int" отличается по уровням косвенного обращения от "void *"
+Parser.y(139,58): warning C4024: newfilterlist: различные типы для формального и фактического параметров 2
+Parser.tab.c(1917,14): warning C4013: yyerror: нет определения; предполагается "extern" с возвратом типа "int"
+  Создание кода...
+C:\Users\romay\Desktop\Labs\!LLP_лето\project_bizon_test(lab2)\project_bizon_test\Parser.y(170): warning C4716: yyerror: должна возвращать значение
+  project_bizon_test.vcxproj -> C:\Users\romay\Desktop\Labs\!LLP_лето\project_bizon_test(lab2)\Debug\project_bizon_test.exe

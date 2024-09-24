@@ -1,0 +1,23 @@
+drop table table_num(2)
+create table table_num(2) raw_size(3)
+insert {1:2, 2:4} into table_num(4)
+for u2 in table_num(2)
+	for g22 in table_num(4)
+	filter u2.2 > 4 && u2.2 == 5
+	return {u2.2, u2.3}	
+
+for u2 in table_num(2)
+	remove u2
+
+for u2 in table_num(2)
+	update u2 with {1:2, 2:4 } 
+
+revome varname in table_num(2)
+
+for u2 in table_num(2)
+  filter u2.2 > 4 && u2.2 == 5
+    update u2 with {1:2, 2:4} 
+
+filter u2.2 > 4 && u2.2 == 5
+
+select from roman filter roman.2 > 4
